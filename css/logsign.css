@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: #e6e6e6;
+}
+
+:root {
+    --Dark-Blue-first: hsl(217, 28%, 15%);
+    /*(intro and email sign up background)*/
+    --Dark-Blue-second: hsl(218, 28%, 13%);
+    /*(main background)*/
+    --Dark-Blue-third: hsl(216, 53%, 9%);
+    /*(footer background)*/
+    --Dark-Blue-fourth: hsl(219, 30%, 18%);
+    /*(testimonials background)*/
+    --Cyan: hsl(176, 68%, 64%);
+    /*(inside call-to-action gradient)*/
+    --Blue: hsl(198, 60%, 50%);
+    /*(inside call-to-action gradient)*/
+    --Light-Red: hsl(0, 100%, 63%);
+    /*(error)*/
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Dark-Blue-third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: var(--Dark-Blue-first);
+    grid-row-end: 50vh;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 20px 0 20px 30px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    color: black;
+    font-weight: 500;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: var(--Blue);
+    font-weight: bold;
+}
